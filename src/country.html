@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/country.css">
+    <title>Country</title>
+</head>
+<body class="text-lightElText dark:text-darkElText text-sm min-h-screen bg-lightBackground dark:bg-darkBackground">
+    <header class="bg-lightFeatures dark:bg-darkFeatures drop-shadow-lg">
+        <div class="container py-4 flex justify-between items-center">
+            <a href="#"><h1 class="text-2xl font-bold">Where in the World?</h1></a>
+           <div class="switch cursor-pointer">
+            <div class="light-mode hidden flex">
+                <i class="bi bi-moon-fill text-darkElText"></i>
+                <p class="text-darkElText ml-2 text-base hidden md:block">Light Mode</p>
+            </div>
+            <div class="dark-mode flex">
+                <i class="bi bi-moon-fill text-lightElText"></i>
+                <p class="text-lightElText ml-2 text-base hidden md:block">Dark Mode</p>
+            </div>
+           </div>
+        </div>
+    </header> 
+    <main class="bg-lightBackground dark:bg-darkBackground py-6">
+        <section class="py-6">
+            <div class="container">
+              <button onclick="history.back()" class="rounded drop-shadow-lg flex items-center bg-lightFeatures dark:bg-darkFeatures py-2 px-6">
+                  <span><i class="bi bi-arrow-left"></i></span>
+                  <p class="ml-3">Back</p>
+              </button>
+            </div>
+        </section>
+        <section class="py-6">
+            <div class="relative">
+                <div id="load-screen" class="absolute bg-lightBackground dark:bg-darkBackground z-[100] w-full flex items-center justify-center h-minus">
+                    <img class="h-32 w-32" src="/src/giphy-unscreen (1).gif" alt="">
+                </div>
+                <div id="country-holder" class="container">
+            
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/country.js"></script>
+</body>
+</html>
+
