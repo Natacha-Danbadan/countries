@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/Natacha-Danbadan/countries)
-- Live Site URL: (https://Natacha-Danbadan.github.io/countries)
+- Live Site URL: (https://natacha-danbadan-countries.netlify.app/)
 
 ## My process
 I  used Tailwind CSS for the layout of the page and using dom manipulation, i used javascript to populate the page and i also added load screen which a user sees on the screen while the data is yet to be displayed. I also used local storage to save a user's preferred mode (either light or dark). There is also a back button that enables a user go back to a previous page. There's is also a search function that enables a user search for a particular country and gets the various countries containing the keyword.
